@@ -85,6 +85,7 @@ p {
 
 .navbar__menu {
   display: flex;
+  margin: 0px 10px;
   color: var(--color-white);
 }
 
@@ -95,7 +96,7 @@ p {
 
 .navbar__menu__item {
   padding: 8px, 12px;
-  margin: 0 4px;
+  margin: 0px 30px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
 }
@@ -106,6 +107,10 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-black);
+}
+
+.navbar__sns i {
+  padding: 5px;
 }
 
 /* Home */
