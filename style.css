@@ -130,7 +130,8 @@ p {
   text-decoration: underline;
 }
 
-.contents__magazines {
+.first-low,
+.second-low {
   display: flex;
   justify-content: space-between;
 }
@@ -142,4 +143,42 @@ p {
 .magazine__photo {
   width: 200px;
   border: solid 1px var(--color-dark-grey);
+}
+
+/* Contact */
+#contact {
+  margin-top: 10px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.contact__upper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__icon {
+  margin: 30px;
+}
+
+.contact__icon i {
+  margin: 0px 10px;
+}
+
+.contact__title {
+  color: var(--color-white);
+}
+
+.contact__lower {
+  display: flex;
+}
+
+.contact__sub {
+  color: var(--color-white);
+  margin: 0px;
+}
+
+.contact__num {
+  margin: 0px 50px;
+  color: var(--color-white);
 }
