@@ -152,9 +152,16 @@ p {
 
 /* product */
 #product {
-  background: url('/img/about/about_photo2.png') center/cover no-repeat;
-  height: 400px;
-  border: 1px solid var(--color-dark-grey);
+  background: url('/img/product/product_img.png') center/cover no-repeat;
+  height: 600px;
+}
+
+.product__title {
+  color: var(--color-white);
+}
+
+.product__discription {
+  color: var(--color-white);
 }
 
 /* Contents */
