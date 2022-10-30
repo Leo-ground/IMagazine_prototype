@@ -79,12 +79,12 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  /* background-color: var(--color-dark-grey); */
-  background-color: transparent;
+  background-color: var(--color-dark-grey);
+  /* background-color: transparent; */
   position: fixed;
   width: 100%;
   align-items: center;
-  padding: 16px;
+  padding: 8px;
   position: fixed;
   transition: all var(--animation-duration) ease-in-out;
   z-index: 1;
@@ -141,12 +141,13 @@ p {
 
 /* About */
 #about {
-  background: url('/img/about/main_photo.png') center/cover no-repeat;
-  color: var(--color-white);
+  background: url('/img/about/about_img.png') center/cover no-repeat;
   padding-top: 120px;
+  height: 800px;
 }
-.about__photo {
-  height: 400px;
+
+.about__discription {
+  color: var(--color-white);
 }
 
 /* product */
