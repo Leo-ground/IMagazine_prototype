@@ -32,6 +32,5 @@ function scrollIntoView(selector) {
 const about = document.querySelector('.about__container');
 const aboutHeight = about.getBoundingClientRect().height;
 document.addEventListener('scroll', () => {
-    console.log(1-scrollY/aboutHeight);
     about.style.opacity = 1-scrollY/aboutHeight;
 })
