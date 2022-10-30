@@ -141,7 +141,7 @@ p {
 
 /* About */
 #about {
-  background: url('/img/about/about_img.png') center/cover no-repeat;
+  background: url('../img/about/about_img.png') center/cover no-repeat;
   padding-top: 120px;
   height: 800px;
 }
@@ -152,7 +152,7 @@ p {
 
 /* product */
 #product {
-  background: url('/img/product/product_img.png') center/cover no-repeat;
+  background: url('../img/product/product_img.png') center/cover no-repeat;
   height: 600px;
 }
 
