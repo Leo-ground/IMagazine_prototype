@@ -79,8 +79,8 @@ p {
 #navbar {
   display: flex;
   justify-content: space-between;
-  background-color: var(--color-dark-grey);
-  /* background-color: transparent; */
+  /* background-color: var(--color-dark-grey); */
+  background-color: transparent;
   position: fixed;
   width: 100%;
   align-items: center;
@@ -140,10 +140,27 @@ p {
 }
 
 /* About */
-#about {
+
+.about__container {
+  height: 100vh;
+  position: relative;
+}
+
+.about__container::before {
+  content: '';
   background: url('img/about/about_img.png') center/cover no-repeat;
-  padding-top: 120px;
-  height: 800px;
+  opacity: 0.7;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.about__textBox {
+  position: relative;
+  top: 300px;
+  padding-left: 150px;
 }
 
 .about__discription {
