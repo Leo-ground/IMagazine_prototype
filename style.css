@@ -187,19 +187,32 @@ p {
   text-decoration: underline;
 }
 
-.first-low,
-.second-low {
+.first-low {
   display: flex;
   justify-content: space-between;
 }
 
+.contents__magazines {
+  margin: 0px 50px;
+}
+
 .magazine {
-  display: flex;
+  margin-right: 50px;
 }
 
 .magazine__photo {
-  width: 200px;
+  height: 400px;
+  width: 300px;
   border: solid 1px var(--color-dark-grey);
+}
+
+.magazine__contents {
+  text-align: center;
+}
+
+.magazine__link {
+  color: var(--color-black);
+  text-decoration: underline;
 }
 
 /* Contact */
