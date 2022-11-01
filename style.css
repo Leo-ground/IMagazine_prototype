@@ -203,7 +203,7 @@ p {
 
 .contents__slide {
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .first-low {
