@@ -29,11 +29,17 @@
 /* Universal tags */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  top: 0;
 }
 
 /* Typography */
 body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
   cursor: default;
 }
 
@@ -153,6 +159,7 @@ p {
 
 .about__container {
   height: 100vh;
+  width: auto;
   position: relative;
 }
 
@@ -161,10 +168,12 @@ p {
   background: url('img/about/about_img.png') center/cover no-repeat;
   opacity: 0.7;
   position: absolute;
-  top: 0px;
+  top: -10px;
   left: 0px;
   right: 0px;
   bottom: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .about__textBox {
@@ -203,11 +212,11 @@ p {
 }
 
 .contents__magazines {
-  margin: 0px 50px;
+  margin: 0px 20px;
 }
 
 .magazine {
-  margin-right: 50px;
+  margin-right: 0px;
 }
 
 .magazine__photo {
