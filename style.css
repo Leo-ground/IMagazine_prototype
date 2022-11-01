@@ -184,7 +184,14 @@ p {
 /* product */
 #product {
   background: url('img/product/product_img.png') center/cover no-repeat;
-  height: 600px;
+  height: 700px;
+  overflow: hidden;
+}
+
+.product__container {
+  position: relative;
+  top: 100px;
+  left: 50px;
 }
 
 .product__title {
@@ -236,12 +243,14 @@ p {
 
 /* Contact */
 #contact {
-  margin-top: 10px;
+  height: 300px;
   background-color: var(--color-black);
   color: var(--color-white);
 }
 
 .contact__upper {
+  padding-top: 30px;
+  margin-left: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -264,6 +273,8 @@ p {
 }
 
 .contact__lower {
+  margin-top: 100px;
+  margin-left: 50px;
   display: flex;
 }
 
