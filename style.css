@@ -100,7 +100,7 @@ p {
   padding: 8px;
   position: fixed;
   transition: all var(--animation-duration) ease-in-out;
-  z-index: 1;
+  z-index: 2;
 }
 
 #navbar.navbar--dark {
@@ -213,27 +213,66 @@ p {
   text-decoration: underline;
 }
 
-.contents__slide {
-  height: 520px;
-  overflow: hidden;
-}
-
-.first-low {
-  display: flex;
-  justify-content: space-between;
-}
-
 .contents__magazines {
-  margin: 0px 50px;
+  width: auto;
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: 50px 50px;
 }
 
-.magazine {
-  margin-right: 0px;
+.contents__slide {
+  /* display: flex; */
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2500px;
+  transition: left 0.5s ease-out;
 }
 
-.magazine__photo {
-  width: 100%;
-  border: solid 1px var(--color-dark-grey);
+.contents__slide > div:first-child {
+  margin-left: 100px;
+}
+
+.contents__slide > div:not(:last-child) {
+  float: left;
+  margin-right: 100px;
+}
+
+.contents__slide > div {
+  float: left;
+}
+
+.controller span {
+  position: absolute;
+  background-color: transparent;
+  color: var(--color-black);
+  text-align: center;
+  border-radius: 50%;
+  padding: 10px 20px;
+  top: 30%;
+  font-size: 1.3em;
+  cursor: pointer;
+}
+
+.controller span:hover {
+  background-color: var(--color-dark-grey);
+}
+
+.prev {
+  left: 10px;
+}
+
+.prev:hover {
+  transform: translateX(-10px);
+}
+
+.next {
+  right: 10px;
+}
+
+.next:hover {
+  transform: translateX(10px);
 }
 
 .magazine__photo img {
