@@ -186,6 +186,11 @@ p {
   color: var(--color-white);
 }
 
+.about__link {
+  text-decoration: underline;
+  text-underline-offset: 8px;
+}
+
 /* product */
 #product {
   background: url('img/product/product_img.jpg') center/cover no-repeat;
@@ -287,6 +292,7 @@ p {
 .magazine__link {
   color: var(--color-black);
   text-decoration: underline;
+  text-underline-offset: 8px;
 }
 
 /* Contact */
