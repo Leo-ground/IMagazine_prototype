@@ -88,12 +88,16 @@ p {
   height: 40px;
 }
 
+section {
+  padding-top: 40px;
+}
 /* Navbar */
+
 #navbar {
   display: flex;
   justify-content: space-between;
-  /* background-color: var(--color-dark-grey); */
-  background-color: transparent;
+  background-color: var(--color-dark-grey);
+  /* background-color: transparent; */
   position: fixed;
   width: 100%;
   align-items: center;
@@ -124,14 +128,16 @@ p {
   margin: 0px 50px;
   cursor: pointer;
   border-radius: var(--size-border-radius);
-}
-
-.navbar__menu__item.active {
-  border: 1px solid var(--color-white);
+  border: 1px solid transparent;
 }
 
 .navbar__menu__item:hover {
   background-color: var(--color-black);
+  border: 1px solid var(--color-white);
+}
+
+.navbar__menu__item {
+  padding: 10px;
 }
 
 .navbar__sns {
@@ -156,6 +162,9 @@ p {
 }
 
 /* About */
+#about {
+  padding-top: 0px;
+}
 
 .about__container {
   height: 100vh;
@@ -341,6 +350,19 @@ p {
   margin: 0px 50px;
   color: var(--color-white);
 }
+
+/* Scroll
+.arrow-up {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  background-color: var(--color-dark-grey);
+  color: var(--color-white);
+  border-radius: 50%;
+} */
 
 /* For bleow 768px screen width */
 @media screen and (max-width: 768px) {
