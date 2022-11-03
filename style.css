@@ -188,7 +188,7 @@ section {
 .about__textBox {
   position: relative;
   top: 300px;
-  padding-left: 150px;
+  padding-left: 50px;
 }
 
 .about__discription {
@@ -223,7 +223,11 @@ section {
 
 /* Contents */
 
-#contents > h3 {
+.contents__discription {
+  margin-left: 50px;
+}
+
+.contents__discription > h3 {
   text-decoration: underline;
 }
 
@@ -312,7 +316,6 @@ section {
 }
 
 .contact__upper {
-  padding-top: 30px;
   margin-left: 50px;
   display: flex;
   justify-content: space-between;
@@ -336,8 +339,9 @@ section {
 }
 
 .contact__lower {
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 50px;
+  margin-bottom: 50px;
   display: flex;
 }
 
