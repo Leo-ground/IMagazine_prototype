@@ -243,14 +243,14 @@ section {
 .contents__slide {
   /* display: flex; */
   position: absolute;
-  left: 0;
+  left: 00;
   top: 0;
   width: 2500px;
   transition: left 0.5s ease-out;
 }
 
 .contents__slide > div:first-child {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .contents__slide > div:not(:last-child) {
@@ -297,6 +297,7 @@ section {
 .magazine__photo img {
   height: auto;
   max-width: 300px;
+  border: 1px solid var(--color-black);
 }
 
 .magazine__contents {
