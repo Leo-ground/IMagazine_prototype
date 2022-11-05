@@ -134,7 +134,7 @@ section {
 
 .navbar__menu__item:hover {
   background-color: var(--color-black);
-  border: 1px solid var(--color-white);
+  /* border: 1px solid var(--color-white); */
 }
 
 .navbar__menu__item {
