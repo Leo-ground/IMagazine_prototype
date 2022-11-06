@@ -379,7 +379,7 @@ section {
 } */
 
 /* For bleow 768px screen width */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .navbar__toggle-btn {
     display: block;
   }
@@ -394,5 +394,5 @@ section {
     text-align: center;
     width: 100%;
     display: none;
-  }
+  } */
 }
